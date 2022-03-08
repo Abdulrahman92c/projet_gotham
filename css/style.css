@@ -37,16 +37,32 @@ img{
 :root{
     --bgc-primary: #555A49;
     --bgc-secondary: #d3d2d6;
-    /*--color-complementary:;*/
+    --color-header:#46494c;
     --color-text:#000;
 }
-
-header, nav , main, footer{
+header h1{
     max-width: 120rem;
     margin: 0 auto;
+    color:#d3d2d6;
+}
+
+nav h2 ul, main, footer{
+    max-width: 120rem;
+    margin: 1rem auto;
     background-color: rgba(250,250,250,0.8);
+    overflow: hidden;
+    border-radius: 2rem;
 
 }
 header h1,section h2,p,nav{
     text-align:center;
+}
+section img, h2, footer{
+    margin: 1rem auto;
+}
+section p, img, nav{
+    padding: 0.rem;
+    border: #000 0.2rem solid;
+    border-radius: 1.6rem;
+    
 }
