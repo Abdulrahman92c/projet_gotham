@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap');
+/*reset */
+html{
+    font-size: 62.5%; /* 16 px * 62.5 % = 1.000 rem */
+    scroll-behavior: smooth;
+    background: #000 url(../asset/cover.jpg) no-repeat fixed center center / cover;
+}
+body{
+    font: 1.6rem 'fredoka', sans-serif;
+    margin: 0;
+ 
+
+}
+h1,h2,h3,h4,h5,p,ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+h1,h2,h3,h4,h5{
+    font-weight: 200;
+}
+img{
+    display: inline-block;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;    
+}
+*{
+    box-sizing: border-box;  /* permet de faire un saut dans la reference et d'ajuster la taille*/
+}
+
+/*theme CSS*/
+:root{
+    --bgc-primary: #555A49;
+    --bgc-secondary: #d3d2d6;
+    /*--color-complementary:;*/
+    --color-text:#000;
+}
+
+header, nav , main, footer{
+    max-width: 120rem;
+    margin: 0 auto;
+    background-color: rgba(250,250,250,0.8);
+
+}
+header h1,section h2,p,nav{
+    text-align:center;
+}
