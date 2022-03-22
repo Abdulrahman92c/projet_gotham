@@ -103,6 +103,9 @@ section p, nav{
 
 }
 
+footer p{
+    text-align: center;
+}
 ul li :last-child{
     margin:0;
     
