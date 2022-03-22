@@ -49,6 +49,7 @@ header h1{
     color:#d3d2d6;
     background-color: var(--color-header);
     border-radius: 1rem;
+    text-align: center;
 }
 nav{
     max-width: 120rem;
@@ -63,7 +64,7 @@ nav h2 ul,main, footer{
     overflow: hidden;
     border-radius: 2rem;
 }
-header h1,section h2,p,nav{
+section h2,p,nav{
     text-align: justify;
     padding: 1rem;
 }
