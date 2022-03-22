@@ -18,7 +18,9 @@ h1,h2,h3,h4,h5,p,ul{
     padding: 0;
     margin: 0;
     list-style: none;
+    
 }
+
 h1,h2,h3,h4,h5{
     font-weight: 200;
 }
@@ -32,7 +34,10 @@ img{
 *{
     box-sizing: border-box;  /* permet de faire un saut dans la reference et d'ajuster la taille*/
 }
-
+a{
+ text-decoration: none;
+ color: #222;
+}
 /*theme CSS*/
 :root{
     --bgc-primary: #555A49;
@@ -50,6 +55,7 @@ header h1{
     background-color: var(--color-header);
     border-radius: 1rem;
     text-align: center;
+    font-size: 4rem;
 }
 nav{
     max-width: 120rem;
@@ -91,6 +97,8 @@ ul li{
 }
 section p{
     padding-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1.5;
 }
 section h2{
     margin-top: 5rem;
