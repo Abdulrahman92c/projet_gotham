@@ -56,7 +56,7 @@ ul,li{
     
 } */
 header h1{
-    max-width: 100rem;
+    max-width: 120rem;
     margin: 1rem auto;
     color:#d3d2d6;
     background-color: var(--color-header);
@@ -79,13 +79,13 @@ header h1::before{
     object-fit: contain;
 }
 nav{
-    max-width: 100rem;
+    max-width: 120rem;
     margin: 0 auto;
     padding-bottom: 2rem;
     background-color: rgba(250,250,250,0.8);
 }
 nav h2 ul,main, footer{
-    max-width: 100rem;
+    max-width: 120rem;
     margin: 0 auto;
     overflow: hidden;
 
@@ -137,8 +137,10 @@ section h2{
     margin: 2rem auto 2rem auto;
     border: #000 0.1rem solid;
     /* background-color: rgba(250,250,250,0.8); */
-      background-color : #fafafa;
+    background-color: #fafafa;
+
 }
+
 section p, nav{
     border: #000 0.1rem solid;
    
@@ -165,39 +167,10 @@ ul li :last-child{
       background-color: #fff;
       gap: 1rem;
   }
-
 /*responsive*/
-
-@media screen and (max-width: 100.0rem){
+@media screen and(max-width:100.0rem) {
     section p{
         text-align: justify;
     }
-    nav .main-menu li{
-        display: block;
-        width: auto;
-    }
-    nav .main-menu li:not(li:last-child){
-        border-right: 0;
-    }
-    nav .main-menu li a{
-        text-align: left;
-        color: #fff;
-
-    }
-    nav .main-menu li{
-        background-color: var(--color-primary);
-        padding: .5rem;
-        margin-bottom: .1rem;
-    }
-    header h1{
-        text-shadow: none;
-    }
-    header h1::before,section h2:before, nav h2:before{
-        content: '';
-    }
-    section h2, nav h2{
-        padding: 0 0 0 .1rem;
-        font-size: 2.5rem;
-        text-shadow: none;
-    }
+    
 }
