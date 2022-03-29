@@ -1,5 +1,5 @@
 # Gotham City
-!["Gotham"](https://www.batman-legend.com/wp-content/uploads/2019/05/Gotham-784x490.png)
+!["Gotham"](./asset/demographie1.jpg)
 
 # Sommaire
 
@@ -11,6 +11,11 @@ Ce site vous permettra d'en connaitre un peu plus surla ville avec le personnage
 On parlera donc de l'histoire, de la géographie et de la démographie de cette fameuse ville.
 Ensuite on parlera du fameux personnage, l'HOMME CHAUVE-SOURIS.
 
+# Qui est cet homme ?
+
+Batman est un personnage de fiction et super-héros de l'univers DC Comics. Il a été créé en mai 1939 par le dessinateur Bob Kane et le scénariste Bill Finger. Il porte un uniforme représentant une chauve-souris.
+
+!["Gotham"](https://www.batman-legend.com/wp-content/uploads/2019/05/Gotham-784x490.png)
 
 
 [venez cliquer sur le lien pour voir plus de détails et avoir plus de fun dans votre vie](https://abdulrahman92c.github.io/projet_gotham/)
